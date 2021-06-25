@@ -15,7 +15,7 @@ function App() {
         <h2>React Practice Step By Step By Parminder</h2>
       </Row>
       <Row>
-        <h4>Bootstrap Package Practice</h4>
+        <h4>React Bootstrap Package Practice Day 1</h4>
       </Row>
       <Row className="bg-light">
         <Nav defaultActiveKey="/home" as="ul">
