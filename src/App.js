@@ -34,6 +34,7 @@ function App() {
                 <Day1></Day1>
               </Route>
               <Route exact path="/day2">
+                <h3>Day 2 Practice with props and states in Class Component</h3>
                 <Day2 name="Parminder" email="parmmehra@gmail.com"></Day2>
                 <Day2 name="Sandeep" email="sandeep@gmail.com"></Day2>
               </Route>

@@ -10,7 +10,7 @@ class Day2 extends React.Component {
   }
   render() {
     return (
-      <div style={{ backgroundColor: "grey", margin: 20 }}>
+      <div style={{ backgroundColor: "grey", margin: 20, padding: 20 }}>
         <h3>My First Class Component</h3>
         <h4>
           Name :{this.state.Name === "Parm" ? this.state.Name : this.props.name}
