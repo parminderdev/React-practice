@@ -34,7 +34,8 @@ function App() {
                 <Day1></Day1>
               </Route>
               <Route exact path="/day2">
-                <Day2></Day2>
+                <Day2 name="Parminder" email="parmmehra@gmail.com"></Day2>
+                <Day2 name="Sandeep" email="sandeep@gmail.com"></Day2>
               </Route>
               <Route exact path="/day3" component={Day3} />
             </Switch>
