@@ -12,7 +12,7 @@ export default function Day1() {
   return (
     <Container className="jumbotron text-center bg-dark text-white">
       <Row>
-        <h4>React Bootstrap Package Practice Day 1</h4>
+        <h3>React Bootstrap Package Practice Day 1</h3>
       </Row>
       <Row className="bg-light">
         <Nav defaultActiveKey="/home" as="ul">

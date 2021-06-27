@@ -30,8 +30,12 @@ function App() {
           <Row>
             <Switch>
               <Route exact path="/" component={Home} />
-              <Route exact path="/day1" component={Day1} />
-              <Route exact path="/day2" component={Day2} />
+              <Route exact path="/day1">
+                <Day1></Day1>
+              </Route>
+              <Route exact path="/day2">
+                <Day2></Day2>
+              </Route>
               <Route exact path="/day3" component={Day3} />
             </Switch>
           </Row>
