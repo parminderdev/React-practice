@@ -8,9 +8,9 @@ export default class Day3 extends React.Component {
       Edu: "B.TECH CSE",
     };
   }
-  function updateDetail() {
+  updateDetail = () => {
     this.setState({ Name: "Demo", Email: "demo@demo.com", Edu: "CSE" });
-  }
+  };
   render() {
     return (
       <div>
@@ -30,7 +30,7 @@ export default class Day3 extends React.Component {
             <br></br>
           </span>
           <span>
-            <button onClick={() => updateDetail()}>Update</button>
+            <button onClick={this.updateDetail}>Update</button>
           </span>
         </p>
       </div>
