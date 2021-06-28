@@ -9,7 +9,10 @@ export default class Day3 extends React.Component {
     };
   }
   updateDetail = () => {
-    this.setState({ Name: "Demo", Email: "demo@demo.com", Edu: "CSE" });
+    let idanme = document.querySelector("#name").value;
+    let idemail = document.querySelector("#email").value;
+    let idedv = document.querySelector("#edu").value;
+    this.setState({ Name: idanme, Email: idemail, Edu: idedv });
   };
   render() {
     return (
@@ -18,15 +21,23 @@ export default class Day3 extends React.Component {
         <h4>User Detail</h4>
         <p>
           <span>
-            Name:<input type="text" value={this.state.Name}></input>
+            Name:
+            <input
+              id="name"
+              type="text"
+              onChange={this.updateDetail}
+              value=""
+            ></input>
             <br></br>
           </span>
           <span>
-            Email: <input type="text" value={this.state.Email}></input>
+            Email:
+            <input id="email" type="text" value=""></input>
             <br></br>
           </span>
           <span>
-            Education: <input type="text" value={this.state.Edu}></input>
+            Education:
+            <input id="edu" type="text" value=""></input>
             <br></br>
           </span>
           <span>
