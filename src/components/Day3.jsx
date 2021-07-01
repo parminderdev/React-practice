@@ -1,3 +1,4 @@
+import { empty } from "prelude-ls";
 import React from "react";
 export default class Day3 extends React.Component {
   constructor(props) {
@@ -44,7 +45,13 @@ function LoginForm(props) {
       password: passwordEl.current.value,
       rememberMe: rememberMeEl.current.checked,
     };
-
+    console.log(data.username);
+    console.log(data.password);
+    if (data.rememberMe === true) {
+      alert("Username:" + data.username + "Password:" + data.password);
+    } else {
+      alert("Please click on remember for show the credentials");
+    }
     // Submit form details to login endpoint etc.
     // ...
   };
