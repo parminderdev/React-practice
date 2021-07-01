@@ -1,5 +1,6 @@
 import { empty } from "prelude-ls";
 import React from "react";
+// Uncontrolled Input Form using class and functioNs
 export default class Day3 extends React.Component {
   constructor(props) {
     super(props);
@@ -14,7 +15,7 @@ export default class Day3 extends React.Component {
     return (
       <div>
         <div style={{ backgroundColor: "grey", margin: 20, padding: 20 }}>
-          <h3>Form Handling with class component</h3>
+          <h3>Uncontrolled Form Handling with class component</h3>
         </div>
         <form onSubmit={this.handleSubmit}>
           <label>
@@ -24,7 +25,7 @@ export default class Day3 extends React.Component {
           <input type="submit" name="Submit" />
         </form>
         <div style={{ backgroundColor: "grey", margin: 20, padding: 20 }}>
-          <h3>Form Handling with function component</h3>
+          <h3>Uncontrolled Form Handling with function component</h3>
         </div>
         <LoginForm></LoginForm>
       </div>
@@ -70,3 +71,5 @@ function LoginForm(props) {
     </form>
   );
 }
+
+// Controlled Inputs Form Handling using function
