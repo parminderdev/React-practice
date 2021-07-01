@@ -1,5 +1,6 @@
 import { empty } from "prelude-ls";
 import React from "react";
+//import { useState } from "react";
 // Uncontrolled Input Form using class and functioNs
 export default class Day3 extends React.Component {
   constructor(props) {
@@ -73,3 +74,19 @@ function LoginForm(props) {
 }
 
 // Controlled Inputs Form Handling using function
+// An input is said to be “controlled” when React is responsible for maintaining and setting its state.
+// The state is kept in sync with the input’s value, meaning that changing the input will update the state, and updating the state will change the input.
+
+function controlledInput() {
+  const [firstN, setfirstN] = React.useState("Demo");
+  const [firstN1, setfirstN1] = React.useState("demo");
+
+  return (
+    <div>
+      <h1>Form </h1>
+      <form>
+        <input type="text" value="{firstN}"></input>
+      </form>
+    </div>
+  );
+}
