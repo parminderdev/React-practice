@@ -4,9 +4,9 @@ import React, { useState } from "react";
 // Update state with Button Click
 export default function Day5() {
   //let data = "Parminder Singh";
-  const [data, setData] = useState("Parminder");
+  const [data, setData] = useState(1);
   function clickhappens() {
-    setData("Rahul");
+    setData(data + 1);
   }
   return (
     <div>
