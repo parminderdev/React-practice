@@ -1,5 +1,5 @@
 import React from "react";
-// Click Event and functions
+// Click Event and functions calling using arrow functions
 // State in class component
 export default class Day4 extends React.Component {
   constructor() {

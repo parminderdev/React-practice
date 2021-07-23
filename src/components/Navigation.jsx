@@ -19,6 +19,9 @@ export default function Navigation() {
         <li>
           <Link to="/day4">Day4 Practice</Link>
         </li>
+        <li>
+        <Link to="/day5">Day5 Practice</Link>
+      </li>
       </ul>
     </div>
   );
