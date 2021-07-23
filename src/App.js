@@ -4,6 +4,7 @@ import Home from "./components/Home";
 import Day1 from "./components/Day1";
 import Day2 from "./components/Day2";
 import Day3 from "./components/Day3";
+import Day4 from "./components/Day4";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
 import {
@@ -39,6 +40,7 @@ function App() {
                 <Day2 name="Sandeep" email="sandeep@gmail.com"></Day2>
               </Route>
               <Route exact path="/day3" component={Day3} />
+              <Route exact path="/day4" component={Day4} />
             </Switch>
           </Row>
         </Container>
