@@ -1,7 +1,6 @@
-import { Container, Row, Col } from "react-bootstrap";
-import { BrowserRouter as Router, Link } from "react-router-dom";
 import Sidebar from "./Sidebar";
-export default function Home() {
+import { Container, Row, Col } from "react-bootstrap";
+export default function Day6() {
   return (
     <Container>
       <Row>
@@ -9,7 +8,9 @@ export default function Home() {
           <Sidebar></Sidebar>
         </Col>
         <Col xs={9}>
-          <h3>Home Page</h3>
+          <div>
+            <h1>Day6 Practice page</h1>
+          </div>
         </Col>
       </Row>
     </Container>

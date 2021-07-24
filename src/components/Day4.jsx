@@ -18,7 +18,11 @@ export default class Day4 extends React.Component {
 
     return (
       <div>
-        <h1>Day4 Component by {this.state.name}</h1>
+        <h1>Day4 Component by Parminder</h1>
+        <h3>
+          <b>Practice:how to use states in class component</b>
+        </h3>
+        <h2>Increment the state : {this.state.name}</h2>
         <button onClick={() => this.Apple()}>CLick Me</button>
       </div>
     );

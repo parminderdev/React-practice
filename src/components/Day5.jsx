@@ -10,7 +10,11 @@ export default function Day5() {
   }
   return (
     <div>
-      <h3>Day5 Created by {data}</h3>
+      <h1>Day4 Component by Parminder</h1>
+      <h3>
+        <b>Practice:how to use states in functional component</b>
+      </h3>
+      <h2>Increment the state : {data}</h2>
       <button onClick={() => clickhappens()}>Click Me</button>
     </div>
   );

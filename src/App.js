@@ -6,6 +6,7 @@ import Day2 from "./components/Day2";
 import Day3 from "./components/Day3";
 import Day4 from "./components/Day4";
 import Day5 from "./components/Day5";
+import Day6 from "./components/Day6";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
 import {
@@ -43,6 +44,7 @@ function App() {
               <Route exact path="/day3" component={Day3} />
               <Route exact path="/day4" component={Day4} />
               <Route exact path="/day5" component={Day5} />
+              <Route exact path="/day6" component={Day6} />
             </Switch>
           </Row>
         </Container>
