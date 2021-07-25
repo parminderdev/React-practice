@@ -10,6 +10,9 @@ export default function Day7() {
     e.preventDefault();
     //console.log(e);
     console.log(name, moviename, termconditions);
+    // document.getElementById("n").innerHTML = name;
+    // document.getElementById("m").innerHTML = moviename;
+    // document.getElementById("t").innerHTML = termconditions;
   }
   function clearData() {
     //alert("Clear Called");
@@ -54,6 +57,25 @@ export default function Day7() {
             <input type="submit" value="SUBMIT"></input>
             <input type="button" value="CLEAR" onClick={clearData}></input>
           </form>
+        </Col>
+      </Row>
+      <Row>
+        <Col xs={3}></Col>
+        <Col xs={9}>
+          <p>Data Entered</p>
+          <br />
+          <table id="table" style={{ width: "100%" }}>
+            <tr>
+              <th>Name</th>
+              <th>Movie Name</th>
+              <th>Checked or not</th>
+            </tr>
+            <tr>
+              <td id="n">{name}</td>
+              <td id="m">{moviename}</td>
+              <td id="t">{termconditions}</td>
+            </tr>
+          </table>
         </Col>
       </Row>
     </Container>
