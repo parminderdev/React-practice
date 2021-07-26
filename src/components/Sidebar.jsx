@@ -11,6 +11,9 @@ export default function Sidebar() {
           <Link to="/Day7">Day7</Link>
         </li>
         <li>
+          <Link to="/Day7a">Day7 Afternon</Link>
+        </li>
+        <li>
           <Link to="/Day8">Day8</Link>
         </li>
         <li>
