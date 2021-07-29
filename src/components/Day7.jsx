@@ -3,13 +3,20 @@ import Sidebar from "./Sidebar";
 import { useState } from "react";
 export default function Day7() {
   const [name, setName] = useState("");
+
   const [moviename, setMoviename] = useState("");
   const [termconditions, settermconditions] = useState(false);
+  const [fulldata, setFulldata] = useState([]);
 
   function getFromData(e) {
     e.preventDefault();
     //console.log(e);
     console.log(name, moviename, termconditions);
+    setName("");
+    setMoviename("");
+    settermconditions("");
+    setFulldata(name, moviename, termconditions);
+
     // document.getElementById("n").innerHTML = name;
     // document.getElementById("m").innerHTML = moviename;
     // document.getElementById("t").innerHTML = termconditions;
@@ -76,6 +83,8 @@ export default function Day7() {
               <td id="t">{termconditions}</td>
             </tr>
           </table>
+
+          {fulldata.map((data) => console.log(data))}
         </Col>
       </Row>
     </Container>
