@@ -19,6 +19,12 @@ export default function Sidebar() {
         <li>
           <Link to="/Day9">Day9</Link>
         </li>
+        <li>
+          <Link to="/Day10">Day10</Link>
+        </li>
+        <li>
+          <Link to="/Da11">Day11</Link>
+        </li>
       </ul>
     </div>
   );

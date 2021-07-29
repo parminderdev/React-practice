@@ -9,6 +9,9 @@ import Day5 from "./components/Day5";
 import Day6 from "./components/Day6";
 import Day7 from "./components/Day7";
 import Day7a from "./components/Day7a";
+import Day8 from "./components/Day8";
+import Day9 from "./components/Day9";
+//import Day7 from "./components/Day7";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
 import {
@@ -50,6 +53,8 @@ function App() {
               <Route exact path="/day7" component={Day7} />
 
               <Route exact path="/day7a" component={Day7a} />
+              <Route exact path="/day8" component={Day8} />
+              <Route exact path="/day9" component={Day9} />
             </Switch>
           </Row>
         </Container>
